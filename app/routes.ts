@@ -5,4 +5,6 @@ import {
   route,
 } from "@react-router/dev/routes";
 
-export default [index("routes/home.tsx")] satisfies RouteConfig;
+export default [
+  route("/animations_framer-motion/", "routes/home.tsx"),
+] satisfies RouteConfig;
